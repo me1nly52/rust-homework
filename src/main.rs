@@ -1,6 +1,7 @@
 mod homework;
-use homework::hw03::draw_envelope;
+use homework::hw04::draw_rhombus;
 
 fn main() {
-    draw_envelope();
+    draw_rhombus();
 }
+ 
