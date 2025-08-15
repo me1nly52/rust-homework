@@ -1,8 +1,6 @@
-mod rustpbyractice;
-mod hackerrank;
 mod homework;
-mod practice;
+use homework::hw03::draw_envelope;
 
 fn main() {
-    println!("We learn Rust!");
+    draw_envelope();
 }
