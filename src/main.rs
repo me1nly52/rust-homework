@@ -1,8 +1,6 @@
 mod homework;
-use homework::hw05::gcd;
+use homework::hw06::draw_christmas_tree;
 
 fn main() {
-    let a = 48;
-    let b = 18;
-    println!("gcd({}, {}) = {}", a, b, gcd(a, b));
+    draw_christmas_tree();
 }
