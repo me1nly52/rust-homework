@@ -1,8 +1,5 @@
 mod homework;
-
+use itertools::Itertools;
 fn main() {
-    let s = "abcdefgh";
-    let n = 2;
-    let rotated = homework::hw09::rotate(s, n);
-    println!("Rotated: {}", rotated);
+    homework::hw11::find_min_adjacent_and_print();
 }
