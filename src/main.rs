@@ -1,6 +1,9 @@
 mod homework;
-use homework::hw06::draw_christmas_tree;
+use homework::hw07::invert_the_case;
 
 fn main() {
-    draw_christmas_tree();
+    let inputs = ["Hello", "Привет"];
+    for &s in &inputs {
+        println!("{}", invert_the_case(s.to_string()));
+    }
 }
